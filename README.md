@@ -4,12 +4,14 @@ This project is for the paper "[Training Confidence-Calibrated Classifier for De
 
 ## Preliminaries
 
-It is tested under Ubuntu Linux 16.04.1 and Python 2.7 environment, and requries Pytorch package to be installed:
+It was initially tested under Ubuntu Linux 16.04.1 and a Python 2.7 environment, and requires the PyTorch package to be installed:
 
 * [Pytorch](http://pytorch.org/): Only GPU version is available.
 
+The code has since been ported to work with PyTorch 1.0+ and Python 3.5+.
+
 ### Downloading  Out-of-Distribtion Datasets
-We use download links of two out-of-distributin datasets from [odin-pytorch](https://github.com/ShiyuLiang/odin-pytorch):
+We use download links of two out-of-distribution datasets from [odin-pytorch](https://github.com/ShiyuLiang/odin-pytorch):
 
 * **[Tiny-ImageNet (resize)](https://www.dropbox.com/s/kp3my3412u5k9rl/Imagenet_resize.tar.gz)**
 * **[LSUN (resize)](https://www.dropbox.com/s/moqh2wh8696c3yl/LSUN_resize.tar.gz)** 
